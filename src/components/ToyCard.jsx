@@ -7,7 +7,7 @@ function ToyCard({ toy, onLike, onDonate }) {
       <img src={toy.image} alt={toy.name} className="toy-avatar" />
       <p>{toy.likes} Likes </p>
       <button className="like-btn" onClick={() => onLike(toy)}>
-        Like <3
+        Like &lt;3
       </button>
       <button className="donate-btn" onClick={() => onDonate(toy.id)}>
         Donate to GoodWill
